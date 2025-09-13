@@ -1,0 +1,24 @@
+[
+  {
+    "driver_id": "D1",
+    "date": "2025-09-10",
+    "gross_earnings": 2000,
+    "expenses": 350,
+    "penalties": [
+      {"code": "LATE_DEL", "amount": 100, "reason": "Late delivery"}
+    ],
+    "rewards": [
+      {"code": "BONUS_WEEKEND", "amount": 50, "reason": "Weekend bonus"}
+    ],
+    "reason": "Demo record for driver D1"
+  },
+  {
+    "driver_id": "D2",
+    "date": "2025-09-10",
+    "gross_earnings": 3000,
+    "expenses": 500,
+    "penalties": [],
+    "rewards": [{"code":"PERFECT_WEEK","amount":200,"reason":"Performance bonus"}],
+    "reason": "Demo record for driver D2"
+  }
+]
